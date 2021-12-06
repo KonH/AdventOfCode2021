@@ -14,6 +14,7 @@
         <Compile Include="Day02Part2.fs" />
         <Content Include="Day03Part1.txt" CopyToOutputDirectory="Always" />
         <Compile Include="Day03Part1.fs" />
+        <Compile Include="Day03Part2.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 
