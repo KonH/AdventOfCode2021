@@ -5,7 +5,7 @@ open System.Collections.Generic
 open System.IO
 
 let run() =
-    Console.WriteLine "Day 09 Part1"
+    Console.WriteLine "Day 09 Part2"
     let inputs =
         File.ReadAllLines "Day09Part1.txt"
     let field = inputs |> Array.map (fun input -> input.ToCharArray() |> Array.map (fun c -> Int32.Parse(c.ToString())))
@@ -53,5 +53,5 @@ let run() =
         if isLowPoint then createBasin ap else Dictionary<Tuple<int, int>, int>()
     let basins = adjacentPoints |> Array.map (fun line -> line |> Array.map tryCreateBasin) |> Array.concat
     let topThreeBySize = basins |> Array.sortByDescending (fun b -> b.Count) |> Array.take 3
-    let result = topThreeBySize |> Array.fold (fun s v -> s * (v.Count)) 1
+    let result = topThreeBySize |> Array.fold (fun s v -> s * v.Count) 1
     Console.WriteLine $"Result is {result}"
