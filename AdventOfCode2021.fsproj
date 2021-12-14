@@ -60,6 +60,7 @@
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
         <Compile Include="Day12Part1.fs" />
+        <Compile Include="Day12Part2.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 
