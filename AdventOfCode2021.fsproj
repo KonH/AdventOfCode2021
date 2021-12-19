@@ -41,6 +41,10 @@
         </Content>
         <Compile Include="Day07Part1.fs" />
         <Compile Include="Day07Part2.fs" />
+        <Content Include="Day08Part1.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Compile Include="Day08Part1.fs" />
         <Content Include="Day09Part1.txt">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
