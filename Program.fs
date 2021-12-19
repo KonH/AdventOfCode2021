@@ -1,3 +1,3 @@
 open AdventOfCode2021
 
-Day08Part1.run()
+Day08Part2.run()
