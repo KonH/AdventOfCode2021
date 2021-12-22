@@ -85,6 +85,7 @@
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
         <Compile Include="Day16Part1.fs" />
+        <Compile Include="Day16Part2.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 
