@@ -91,6 +91,10 @@
         </Content>
         <Compile Include="Day17Part1.fs" />
         <Compile Include="Day17Part2.fs" />
+        <Content Include="Day25Part1.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Compile Include="Day25Part1.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 
